@@ -3,7 +3,7 @@ import { CreateAuthDto } from './dto/create-auth.dto';
 import { UpdateAuthDto } from './dto/update-auth.dto';
 
 @Injectable()
-export class AuthService {
+export class authService {
     create(createAuthDto: CreateAuthDto) {
         return 'This action adds a new auth';
     }
