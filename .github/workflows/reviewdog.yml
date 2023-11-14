@@ -15,4 +15,6 @@ jobs:
           reporter: github-pr-check
           level: warning
           eslint_flags: "src/"
+          filter_mode: diff_context
+          fail_on_error: true
           reviewdog_flags: rdjson
