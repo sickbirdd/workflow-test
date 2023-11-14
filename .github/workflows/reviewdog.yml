@@ -12,7 +12,7 @@ jobs:
       - uses: reviewdog/action-eslint@v1
         with:
           github_token: ${{ secrets.REVIEWDOG_TOKEN}}
-          reporter: github-pr-check
+          reporter: github-check
           level: warning
           eslint_flags: "src/"
           filter_mode: diff_context
