@@ -26,4 +26,5 @@ jobs:
           github_token: ${{ secrets.REVIEWDOG_TOKEN }}
           eslint_flags: "src/"
           filter_mode: file
+          workdir: "backend"
           fail_on_error: true
